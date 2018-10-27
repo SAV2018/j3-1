@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Вес (коробка " + box2.getId() + "): " + box2.getWeight());
         compOut(box1, box2);
 
-        // пересыпаем из одной коробки в другую
+        // пересыпаем фрукты из коробки 1 в коробку 3
         Box<Orange> box3 = new Box(3);
         box3.addFruits(new Orange(),1);
         System.out.println("\nВес (коробка " + box3.getId() + "): " + box3.getWeight());
