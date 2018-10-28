@@ -1,10 +1,11 @@
 package hw1;
 
 import java.util.ArrayList;
+import java.util.List;
 
 class Box<T extends Fruit> {
     private int id; // номер коробки
-    private ArrayList<T> fruits = new ArrayList<>();
+    private List<T> fruits = new ArrayList<>();
 
     Box(int id) {
         this.id  = id;
